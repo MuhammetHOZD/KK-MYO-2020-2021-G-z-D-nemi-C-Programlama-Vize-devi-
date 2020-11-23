@@ -20,15 +20,9 @@ int main( void )
     "YAŞI: 19\n"
     "DOĞGUM TARİHİ: 30/07/2001\n");
 	else {
-		if( ög_no <= 200706013 )
+		if( ög_no != 200706013 )
 			printf("ÖĞRENCİ NUMARASI YANLIŞ\n"
       "TEKRAR DENEYİNİZ\n");
-    else{
-      if(ög_no >= 200706015)
-			printf("ÖĞRENCİ NUMARASI YANLIŞ\n"
-      "TEKRAR DENEYİNİZ\n");
-      goto basa_dön;
-    }
     goto basa_dön;
 	}
 
